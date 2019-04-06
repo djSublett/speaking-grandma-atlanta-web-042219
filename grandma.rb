@@ -2,7 +2,11 @@
 def speak_to_grandma(phrase)
   if (phrase.downcase)
     return "HUH?! SPEAK UP, SONNY!"
-  else if (phrase.upcase) 
+  else if (phrase.upcase)
+    return "No, NOT SINCE 1938!"
+  else (phrase === "I LOVE YOU GRANDMA!")
+    return "I LOVE YOU TOO PUMPKIN!"
+    
     
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
